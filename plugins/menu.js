@@ -32,45 +32,47 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       .replace(/%week/g, week)
       .replace(/%date/g, date)
       .replace(/%time/g, time): `
- [Miray-chan] 
+ ═〘 XANDINHO 2.0 〙═ 
 
 
-Hi, ${name} 👋
+Olá, ${name} 👋
 Exp: ${exp}
 
-📟 Waktu: ${time}
-📆 Tanggal: ${week}, ${date}
+Criador: Wa.me/556392445315
+
+📟 Tempo: ${time}
+📆 Encontro: ${week}, ${date}
 
 ${more.repeat(1000)}
 
-Cara Tambah XP:
-+1 Exp/pesan biasa
-+10 Exp/command
+Como adicionar XP:
++1 Encomenda exp / regular
++10 Exp / comando
 
 ═════✪〘 Menu 〙✪═══
 
 ═〘 Xp 〙 ═
-➥ ${_p}leaderboard [jumlah user]
+➥ ${_p}leaderboard [Número de usuários]
 
-═〘 Command 〙 ═
+═〘 Comando 〙 ═
 ➥ ${_p}menu
 ➥ ${_p}help
 ➥ ${_p}?
 
-═〘 Tutor BoT 〙 ═
+═〘 Tutorial do bot 〙 ═
 ➥ ${_p}tutorial
 
 ═〘 Others 〙 ═
-➥ ${_p}qr <teks>
-➥ ${_p}stiker (caption)
+➥ ${_p}qr <texto>
+➥ ${_p}stiker (rubrica)
 ➥ ${_p}stiker <url>
-➥ ${_p}toimg (reply)
+➥ ${_p}toimg (resposta)
 ➥ ${_p}bucin
 ➥ ${_p}ssweb <url>
 ➥ ${_p}sswebf <url>
-➥ ${_p}google <pencarian>
-➥ ${_p}googlef <pencarian>
-➥ ${_p}readmore <teks>|<sembunyi>
+➥ ${_p}google <search>
+➥ ${_p}googlef <search>
+➥ ${_p}readmore <texto> | <ocultar>
 ➥ ${_p}quran
 ➥ ${_p}modApk
 
@@ -79,38 +81,38 @@ Cara Tambah XP:
 ➥ ${_p} promote [@tagmember]
 ➥ ${_p} demote [@tagadmin]
 ➥ ${_p} linkgrup
-➥ ${_p} pengumuman [text]
-➥ ${_p} hidetag [text]
+➥ ${_p} pengumuman [texto]
+➥ ${_p} hidetag [texto]
 ➥ ${_p} listonline
 ➥ ${_p} kick @Member
 ➥ ${_p} grouplist
 
 ═〘 EXPERIMENTAL 〙 ═
-➥ ${_p}jadibot [kode login jika ada / kosongin]
+➥ ${_p}jadibot [código de login se houver / vazio]
 ➥ ${_p}berhenti
 ➥ ${_p}getcode
 
 ═〘 OWNER 〙 ═
-➥ ${_p}bcgc <teks>
-➥ ${_p}setmenu <teks>
-➥ ${_p}deletechat (chat grup)
-➥ ${_p}deletechat group
-➥ ${_p}mutechat (chat grup)
-➥ ${_p}mutechat group
+➥ ${_p}bcgc <texto>
+➥ ${_p}setmenu <texto>
+➥ ${_p}deletechat (Grupo de bate-papo)
+➥ ${_p}deletechat grupo
+➥ ${_p}mutechat (Grupo de bate-papo)
+➥ ${_p}mutechat grupo
 
-═〘 IKLAN 〙 ═
-➥ Instagram: intagram.com/akbarsan3
-➥ Github: https://github.com/Akbarsans/miray-chan
+═〘 PROPAGANDA 〙 ═
+➥ Número do Criador: Wa.me/556392445315
+➥ Github: GitHub está privado
 
-═〘 Info Bot 〙 ═
-➥ Name : Miray-chan
-➥ Coded using *Nano* on Android \\w Termux
+═〘 Informações do bot 〙 ═
+➥ Nome : Xandinho 2.0
+➥ Codificado using *Nano* on Android \\w Termux
 ➥ 
 
 Advanced:
   > return m
 
-═〘 Miray-chan 〙═
+═〘 XANDINHO 2.0 〙═
 `.trim()
     conn.reply(m.chat, {...preview, text}, m)
   }
