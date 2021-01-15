@@ -35,7 +35,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
  [Miray-chan] 
 
 
-Hi, ${name} 👋
+Olá, ${name} 👋
 Exp: ${exp}
 
 📟 Waktu: ${time}
@@ -99,18 +99,18 @@ Cara Tambah XP:
 ➥ ${_p}mutechat group
 
 ═〘 IKLAN 〙 ═
-➥ Instagram: intagram.com/akbarsan3
-➥ Github: https://github.com/Akbarsans/miray-chan
+➥ Instagram: off
+➥ Github: none
 
 ═〘 Info Bot 〙 ═
-➥ Name : Miray-chan
+➥ Nome do bot : Xandinho
 ➥ Coded using *Nano* on Android \\w Termux
 ➥ 
 
 Advanced:
   > return m
 
-═〘 Miray-chan 〙═
+═〘 XANDINHO O BOT 〙═
 `.trim()
     conn.reply(m.chat, {...preview, text}, m)
   }
